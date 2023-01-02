@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <title>TJC // Web-developer</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <title>TJC // Web-developer</title>
 </head>
+
 <body>
-    <div class="jumbotron">
-        <!-- nav bar menu -->
-        <ul class="nav justify-content-end">
-             <li class="nav-item">
-              <a class="nav-link disabled">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        
-        <!-- logo and title -->
-        <nav class="navbar">
-            <h1 class="navbar-brand">
-            <img src="/assets/images/orangelogo.png" width="100" height="100" class="d-inline-block align-top" alt="logo">
-            Tamara Joniec
-            </h1>
-        </nav>
-        <!-- display and heading -->
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  
+    <!-- nav bar menu -->
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link disabled">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+
+    <!-- logo and title -->
+    <nav class="navbar">
+      <h1 class="navbar-brand">
+        <img src="./assets/images/LogoName.png" width="100" height="100" class="d-inline-block align-top" alt="logo">
+      </h1>
+    </nav>
+    <!-- display and heading -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
       </div>
-    <!-- Projects area -->
-    <h2>Projects</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <img src="./assets/images/Marketing-website.jpg" class="img-fluid" alt="Marketing-website">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="./assets/images/Furniture-store-website.jpg" class="img-fluid" alt="Furniture-website">
-          </div>
-      
-          <!-- Force next columns to break to new line at md breakpoint and up -->
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="./assets/images/placeholder1.png" class="img-fluid" alt="Placeholder-website">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="./assets/images/Restaurant-website.jpg" class="img-fluid" alt="Restaurant-website">
-          </div>
-          
+    </div>
+
+  <!-- Projects area -->
+  <h2>Projects</h2>
+  <div class="card">
+    <div class="card-body">
+    </div>
+    <img class="card-img-bottom" src="assets/images/02-hero-bg.png" alt="Card image cap">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="./assets/images/Furniture-store-website.jpg" class="img-fluid" alt="Furniture-website">
       </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="./assets/images/Marketing-website.jpg" class="img-fluid" alt="Marketing-website">
+      </div>
+      <!-- Force next columns to break to new line at md breakpoint and up -->
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="./assets/images/02-portfolio-2.jpg" class="img-fluid" alt="Application-website">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="./assets/images/02-portfolio-4.jpg" class="img-fluid" alt="Surf-website">
+      </div>
+
+    </div>
 </body>
+
 </html>
