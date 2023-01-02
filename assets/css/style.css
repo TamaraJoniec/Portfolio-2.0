@@ -10,3 +10,8 @@
     background-color: #ddd;
     color: rgb(70, 9, 70);
   }
+  .card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
