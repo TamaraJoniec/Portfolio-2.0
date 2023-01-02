@@ -1,6 +1,8 @@
 * {
     font-family: 'Century Gothic', serif;
     }
+
+    /* navigation bar styling */
 .nav-item a {
     float: right;
     display: block;
@@ -10,16 +12,14 @@
     color:gray;
   }
   .nav-item a:hover {
-    background-color: #ddd;
-    color: rgb(70, 9, 70);
+    color: orange;
   }
+
+  /* hero banner styling */
 .card-img-hero {
     width: 100%;
     height: 30vw;
     object-fit: cover;
-}
-.card-img-overlay {
-    color: white
 }
 .card-img-main {
     width: 100%;
@@ -27,7 +27,9 @@
     object-fit: cover;
     opacity: 0.7;
 }
-  .card-body {
+
+/* project grid styling */
+.card-body {
     background-color: rgb(0, 0, 0);
     padding: 2%;
     height: 5%;
@@ -37,7 +39,7 @@
     opacity: 0.7;
   }
 
-  .card-img-top {
+.card-img-top {
     width: 100%;
     height: 30vw;
     object-fit: cover;
