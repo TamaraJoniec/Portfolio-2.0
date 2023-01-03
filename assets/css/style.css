@@ -51,3 +51,68 @@
 .card-body:hover {
     opacity:1.0;
 }
+
+footer {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    height: 400px
+  }
+  
+  .wrap {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .left {
+    text-align: left;
+    float: left;
+    padding: 20px;
+  }
+
+  #selfie {
+    max-width: 200px;
+    height: auto;
+    margin: 1 1.5;
+    padding: 0.5rem;
+    border: 3px rgb(84, 10, 35);
+    border-style: dashed;
+    z-index: 100px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #description {
+    float: left;
+    text-align: left;
+    color: gray;
+    font-size: 120%;
+    display: flex;
+    margin-top: 10%;
+    flex: 1 0 auto;
+    width: 50%;
+  }
+  
+  #icons {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    align-items: flex-end;
+    width: 100%;
+    margin: -10px;
+    justify-content: flex-end;
+    gap: 20px;
+    color: grey;
+    z-index: 300;
+  }
+  
+  #github,
+  #linkedin,
+  #twitter {
+    display: row;
+    size: 20px;
+    cursor: pointer;
+    size: 10px;
+  }
+  
